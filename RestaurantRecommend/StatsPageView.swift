@@ -9,7 +9,6 @@ import SwiftUI
 
 struct StatsPageView: View {
     @State private var showingFamilyStats = false
-    private var temporaryStats:
     var body: some View {
         VStack() {
             Text("Settings")

@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct RestaurantRecommendApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate // This links to your AppDelegate
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // Your starting view
         }
     }
 }
